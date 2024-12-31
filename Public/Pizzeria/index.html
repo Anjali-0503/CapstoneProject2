@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pizzeria</title>
+        <style>
+            h3{
+                font-family: 'DynaPuff','Courier New', Courier, monospace;
+                font-weight: 400px;
+                font-size: 5rem;
+                text-align: center;
+                margin-top: 0%;
+            }
+            .logo{
+                height: 150px;
+                width: 150px;
+            }
+            .card{
+                width: 45%;
+                margin-left: 10px;
+            }
+            .pizza{
+                height: 200px;
+                object-fit: cover;
+            }
+            .etymology{
+                height:200px;
+                object-fit: cover;
+            }
+            .left{
+                float: left;
+            }
+            .right{
+                float: right;
+            }
+            .image{
+                float: left;
+                margin-right: 5px;
+            }
+
+            @media(max-width:600px){
+                .logo{
+                    height: 100px;
+                    width: 100px;
+                }
+                h3{
+                    font-size: 3rem;
+                }
+                .card{
+                    width: 100%;
+                    display: block;
+                    text-align: justify;
+                    margin-bottom: 10px;
+                    margin-left: 0%;
+                }
+                .image{
+                    width: 100%;
+                    display: inline;
+                    object-fit: cover;
+                    margin-bottom: 0%;
+                    margin-right: 0%;
+                }
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <img class="logo" src="./pizza.jpg" alt="logo of a pizzeria"/>
+        </div>
+        <div>
+            <h3>Magic is Like Pizza; even when it's bad, it's pretty good!</h3>
+        </div>
+        <div class="card left">
+            <img class="image pizza" src="./img/p1.jpg" alt="photo of a pizza"/>
+            <p>Pizza is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato, cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven.
+                The term pizza was first recorded in the year 997 AD, in a Latin manuscript from the southern Italian town of Gaeta, in Lazio, on the border with Campania. Raffaele Esposito is often credited for creating the modern pizza in Naples. In 2009, Neapolitan pizza was registered with the European Union as a traditional speciality guaranteed (TSG) dish. In 2017, the art of making Neapolitan pizza was included on UNESCO's list of intangible cultural heritage.
+                Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food.[10] In Italy, pizza served in a restaurant is presented unsliced, and is eaten with the use of a knife and fork.[11][12] In casual settings, however, it is typically cut into slices to be eaten while held in the hand. Pizza is also sold in grocery stores in a variety of forms, including frozen or as kits for self-assembly. Store-bought pizzas are then cooked using a home oven.
+                In 2017, the world pizza market was US$128 billion, and in the US it was $44 billion spread over 76,000 pizzerias. Overall, 13% of the US population aged two years and over consumed pizza on any given day.</p>
+        </div>
+        <div class="card right">
+            <img class="image etymology" src="./img/etymology.jpg" alt="picture of etymology"/>
+            <p>The oldest recorded usage of the word pizza is from a Latin text from the town of Gaeta, then still part of the Byzantine Empire, in 997 AD; the text states that a tenant of certain property is to give the bishop of Gaeta duodecim pizze (lit. 'twelve pizzas') every Christmas Day, and another twelve every Easter Sunday.
+                The Etymological Dictionary of the Italian Language explains it as coming from dialectal pinza, 'clamp', as in modern Italian pinze, 'pliers, pincers, tongs, forceps'. Their origin is from Latin pinsere, 'to pound, stamp'.
+The Lombardic word bizzo or pizzo, meaning 'mouthful' (related to the English words bit and bite), which was brought to Italy in the middle of the 6th century AD by the invading Lombards. The shift b>p could be explained by the High German consonant shift, and it has been noted in this connection that in German the word Imbiss means 'snack'.
+            </p>
+        </div>
+    </body>
+</html>

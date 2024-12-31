@@ -1,0 +1,92 @@
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;   
+}
+.bg-gradient{
+    background-color: #e65758;
+}
+.TT{
+    color: white;
+}
+.TT2{
+    color:#df3e3e;
+}
+h1{
+    font-family: "Libre Baskerville",serif;
+}
+h2{
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Libre Baskerville","Funnel Display","Josefin Sans";
+}
+h3{
+    font-family: "Roboto Serif","DM Serif Text","Funnel Display","Libre Baskerville",serif;
+    font-weight: 549;
+}
+p{
+    font-family: "Ysabeau SC","Libre Franklin","DM Serif Text",DynaPuff,"Josefin Sans";
+    font-size: large;
+}
+.icon-link{
+    font-family: "Roboto Serif";
+}
+.lead{
+    font-weight: 500;
+    font-size: 22px;
+}
+.txt-size{
+    font-weight: 500;
+    font-size: 20px;
+}
+.txt-s{
+    font-weight: 500;
+    font-size: 21px;
+}
+.Pro1round{
+    width: 400px;
+    height: 300px;
+}
+.contact{
+    text-align: center;
+}
+.btn-color{
+    background: linear-gradient(300deg,  #f0ab86, #df3e3e);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color: white;
+}
+#section1{
+    background: linear-gradient(300deg, #f7dba7, #f0ab86, #e65758);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+#section5{
+    background: linear-gradient(300deg, #f7dba7, #f0ab86, #e65758);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@media(max-width:500px){
+    .Pro1round{
+        width: 320px;
+        height: 250px;
+    }
+    #section1{
+        background: linear-gradient(300deg, #e65758,#ddb56a,#df3e3e);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+    }
+    #section5{
+        background: linear-gradient(300deg, #e65758,#ddb56a,#df3e3e);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+    }
+}
+@media(max-width:400px){
+    .Pro1round{
+        width: 250px;
+        height: 250px;
+    }
+}
